@@ -24,12 +24,28 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 ---
 
 ## Data
-
+<!---
 We use the **MS MARCO dataset (Microsoft Machine Reading Comprehension)**, a large-scale, open-source dataset for passage ranking and question answering. The dataset includes:
 - **Triplets**: Query, passage, relevance score
 - Tasks:
   - **Passage Retrieval**: Evaluate retrieval quality
-  - **Question Answering**: Derive answers using passages
+  - **Question Answering**: Derive answers using passages 
+--->
+
+We use the MS MARCO dataset (Microsoft Machine Reading Comprehension) and TriviaQA, two large-scale, open-source datasets for passage ranking and question answering. The datasets include:
+
+- **MS MARCO**:
+Triplets: Query, passage, relevance score  
+
+  Tasks:
+   - Passage Retrieval: Evaluate retrieval quality
+   - Question Answering: Derive answers using passages
+    
+- **TriviaQA**:  
+A challenging dataset that contains question-answer pairs with supporting evidence sourced from Wikipedia and web documents.  
+
+  Tasks:
+   - Question Answering: Use retrieved passages to find precise answers.
 
 ---
 
