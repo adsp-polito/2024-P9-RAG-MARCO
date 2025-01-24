@@ -55,6 +55,8 @@ Note: You can omit any arguments to use their default values.
 ## Wandb Hyperparameter Tuning 
 
 As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
+![My Image](W&B Chart.png "This is a tooltip")
+
 
 
 ## Objectives
