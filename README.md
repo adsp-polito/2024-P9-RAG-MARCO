@@ -82,13 +82,6 @@ Triplets: Query, passage, relevance score
   Tasks:
    - Passage Retrieval: Evaluate retrieval quality
    - Question Answering: Derive answers using passages
-    
-- **TriviaQA**:  
-A challenging dataset that contains question-answer pairs with supporting evidence sourced from Wikipedia and web documents.  
-
-  Tasks:
-   - Question Answering: Use retrieved passages to find precise answers.
-
 ---
 
 ## Workflow
