@@ -11,13 +11,12 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 ---
 ## Project Structure
 ```bash
-Caltech_classification_fine_tuning_AlexNet/
-├── data/           # Directory containing your dataset
+ADSP Project/
+├── datasets/           # Directory containing your dataset
 ├── model/          # Directory to save your trained model
-├── src/            # Your Python scripts, including the AlexNet implementation
-│   └── train.py    # Main script to perform the classification
-├── requirements.txt # Python dependencies
-└── Dockerfile      # Docker configuration file
+├── src/            # Your Python scripts
+│   └── notebooks.py    # Main script to perform the classification
+└── report      
 ```
 ## Installation
 To run this project, you need to install the Weights & Biases library (wandb). You can install it via pip:<br/>
