@@ -20,6 +20,7 @@ ADSP Project/
 ├── notebooks/            # The notebooks
 │   └── stable_system.ipynb    # Main script to create the retrieval system
 │   └── stable_data_cleaning.ipynb    # Main script to perform the data cleaning
+├── checkpoints/           # Directory containing the checkpoint presentations
 └── report      
 ```
 ## Installation
@@ -39,7 +40,7 @@ python -m spacy download en_core_web_sm
 ```
 
 ## Usage
-Once you have installed the required libraries and cloned the dataset repository, you need to  simply run the stable_system.ipynb,  you can use the following hyperparameter arguments to customize the training process:
+Once you have installed the required libraries and cloned the dataset repository, you need to simply `run the stable_system.ipynb`,  you can use the following hyperparameter arguments to customize the training process:
 
 - `--epoch`: Number of epochs for training (default is 50).
 - `--batch_size`: Batch size for training (default is 512).
