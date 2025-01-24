@@ -1,4 +1,4 @@
-# Improving Retrieval System in RAG Architecture to Expand LLM Context
+# Improving Retrieval Performance in Retrieval-Augmented Generation Architecture
 
 ## Overview
 
