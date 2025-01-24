@@ -12,10 +12,10 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 ## Project Structure
 ```bash
 ADSP Project/
-├── datasets/           # Directory containing your dataset
-├── model/          # Directory to save your trained model
-├── src/            # Your Python scripts
-│   └── notebooks.py    # Main script to perform the classification
+├── datasets/           # Directory containing the datasets
+├── notebooks/            # The notebooks
+│   └── stable_system.ipynb    # Main script to create the retrieval system
+│   └── stable_data_cleaning.ipynb    # Main script to perform the data cleaning
 └── report      
 ```
 ## Installation
