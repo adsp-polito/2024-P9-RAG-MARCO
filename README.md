@@ -26,7 +26,7 @@ ADSP Project/
 
 ## Wandb Hyperparameter Tuning 
 
-As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the [following link](https://api.wandb.ai/links/adsp-gt3-o1/xmjme8j8).
+As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the [following link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu).
 
 ![Image](https://github.com/user-attachments/assets/4ec51116-ce5a-4316-9e06-16361acdc049)
 
