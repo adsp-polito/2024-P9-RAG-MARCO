@@ -10,7 +10,7 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 
 ### Project Developers
 
-The project was developed by Homayoun Afshari, [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and Arash Daneshvar.
+The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and Arash Daneshvar.
 
 ---
 ## Project Structure
@@ -26,6 +26,16 @@ ADSP Project/
 To run this project, you need to install the Weights & Biases library (wandb). You can install it via pip:<br/>
 ```bash
 pip install wandb
+pip install datasets
+pip install sentence_transformers
+pip install faiss-cpu
+pip install faiss-gpu
+pip install scann
+pip install rapidfuzz
+pip install python-Levenshtein
+pip install rank-bm25
+pip install spacy
+python -m spacy download en_core_web_sm
 ```
 
 You also need to clone the dataset repository inside the `data` folder. Run the following command in your terminal:<br/>
