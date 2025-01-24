@@ -10,7 +10,7 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 
 ### Project Developers
 
-The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and Arash Daneshvar.
+The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/).
 
 ---
 ## Project Structure
@@ -44,7 +44,7 @@ https://github.com/adsp-polito/2024-P9-RAG-MARCO/tree/main
 ```
 
 ## Usage
-Once you have installed the required libraries and cloned the dataset repository, change the directory to the `src` folder,  you can use the following hyperparameter arguments to customize the training process:
+Once you have installed the required libraries and cloned the dataset repository, you can simply run the stable_system.ipynb,  you can use the following hyperparameter arguments to customize the training process:
 
 - `--epoch`: Number of epochs for training (default is 50).
 - `--batch_size`: Batch size for training (default is 512).
@@ -56,13 +56,6 @@ Once you have installed the required libraries and cloned the dataset repository
 - `--preferred_total`: Total number of positive/negative chosen samples for contrastive loss.
 
 Note: You can omit any arguments to use their default values.
-
-## Example
-Here's an example command to start training:
-```bash
-python caltech_101_kaggle_v4.py --epoch 10 --batch_size 32 --lr 0.001 --momentum 0.9 --weight_decay 0.0001 --fine_tune_mode True --fine_tune_setting "setting_1"
-```
-This command will train the model for 10 epochs with a batch size of 32, learning rate of 0.001, momentum of 0.9, weight decay of 0.0001, using fine-tuning mode with setting "setting_1".
 
 ## Objectives
 
