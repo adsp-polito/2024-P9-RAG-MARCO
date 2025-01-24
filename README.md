@@ -52,6 +52,11 @@ Once you have installed the required libraries and cloned the dataset repository
 
 Note: You can omit any arguments to use their default values.
 
+## Wandb Hyperparameter Tuning 
+
+As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
+
+
 ## Objectives
 
 1. Enhance the **retrieval process** by incorporating advanced chunk processing, including:
