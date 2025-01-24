@@ -10,7 +10,7 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 
 ### Project Developers
 
-The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/) (308563), [Hossein Khodadadi](https://hossenkhodadadi.github.io/) (313884), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/) (314415).
+The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/).
 
 ---
 ## Project Structure
@@ -26,7 +26,7 @@ ADSP Project/
 
 ## Wandb Hyperparameter Tuning 
 
-As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
+As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://api.wandb.ai/links/adsp-gt3-o1/xmjme8j8).
 
 ![Image](https://github.com/user-attachments/assets/4ec51116-ce5a-4316-9e06-16361acdc049)
 
