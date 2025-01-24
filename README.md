@@ -58,7 +58,6 @@ Once you have installed the required libraries and cloned the dataset repository
 - `--positive_tendency`: The tendency to choose positive samples over negative samples.
 - `--preferred_total`: Total number of positive/negative chosen samples for contrastive loss.
 
-Note: You can omit any arguments to use their default values.
 
 ## Objectives
 
