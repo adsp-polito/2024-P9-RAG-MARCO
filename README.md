@@ -23,6 +23,13 @@ ADSP Project/
 ├── checkpoints/           # Directory containing the checkpoint presentations
 └── report      
 ```
+
+## Wandb Hyperparameter Tuning 
+
+As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
+
+![Image](https://github.com/user-attachments/assets/70a8b6b2-6e05-440f-a42d-090c5c2b0fd8)
+
 ## Installation
 To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
 ```bash
@@ -52,13 +59,6 @@ Once you have installed the required libraries and cloned the dataset repository
 - `--preferred_total`: Total number of positive/negative chosen samples for contrastive loss.
 
 Note: You can omit any arguments to use their default values.
-
-## Wandb Hyperparameter Tuning 
-
-As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
-![My Image](W&B Chart.png "This is a tooltip")
-
-
 
 ## Objectives
 
