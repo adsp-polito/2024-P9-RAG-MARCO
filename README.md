@@ -8,6 +8,8 @@ This project focuses on enhancing the **Retrieval-Augmented Generation (RAG)** s
 
 The primary stakeholder is **LINKS Foundation**, which seeks to leverage advanced RAG systems for European projects and other applications.
 
+### Project Developers
+The project was developed by Homayoun Afshari, Hossein Khodadadi, and Arash Daneshvar.
 ---
 ## Project Structure
 ```bash
