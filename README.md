@@ -1,4 +1,4 @@
-# Improving Retrieval System in RAG Architecture to Expand LLM Context
+# Improving Retrieval Performance in Retrieval-Augmented Generation Architecture
 
 ## Overview
 
@@ -6,9 +6,58 @@ This project focuses on enhancing the **Retrieval-Augmented Generation (RAG)** s
 
 ### Project Stakeholder
 
-The primary stakeholder is **LINKS Foundation**, which seeks to leverage advanced RAG systems for European projects and other applications.
+The primary stakeholder is **LINKS Foundation**, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by Professor Giuseppe Rizzo and Dr. Lorenzo Bongiovanni.
+
+### Project Developers
+
+The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/) (308563), [Hossein Khodadadi](https://hossenkhodadadi.github.io/) (313884), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/) (314415).
 
 ---
+## Project Structure
+```bash
+ADSP Project/
+├── datasets/           # Directory containing the datasets
+├── notebooks/            # The notebooks
+│   └── stable_system.ipynb    # Main script to create the retrieval system
+│   └── stable_data_cleaning.ipynb    # Main script to perform the data cleaning
+└── report      
+```
+## Installation
+To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
+```bash
+pip install wandb
+pip install datasets
+pip install sentence_transformers
+pip install faiss-cpu
+pip install faiss-gpu
+pip install scann
+pip install rapidfuzz
+pip install python-Levenshtein
+pip install rank-bm25
+pip install spacy
+python -m spacy download en_core_web_sm
+```
+
+## Usage
+Once you have installed the required libraries and cloned the dataset repository, you need to  simply run the stable_system.ipynb,  you can use the following hyperparameter arguments to customize the training process:
+
+- `--epoch`: Number of epochs for training (default is 50).
+- `--batch_size`: Batch size for training (default is 512).
+- `--learning_rate`: Learning rate (default is 0.0001).
+- `--margin`: The margin which separates the positive and negative samples.
+- `--mode`: Policy for choosing the positive and negative samples.
+- `--norm_order`: Normalization order.
+- `--positive_tendency`: The tendency to choose positive samples over negative samples.
+- `--preferred_total`: Total number of positive/negative chosen samples for contrastive loss.
+
+Note: You can omit any arguments to use their default values.
+
+## Wandb Hyperparameter Tuning 
+
+As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
+![My Image](W&B Chart.png "This is a tooltip")
+
+
 
 ## Objectives
 
@@ -40,13 +89,6 @@ Triplets: Query, passage, relevance score
   Tasks:
    - Passage Retrieval: Evaluate retrieval quality
    - Question Answering: Derive answers using passages
-    
-- **TriviaQA**:  
-A challenging dataset that contains question-answer pairs with supporting evidence sourced from Wikipedia and web documents.  
-
-  Tasks:
-   - Question Answering: Use retrieved passages to find precise answers.
-
 ---
 
 ## Workflow
