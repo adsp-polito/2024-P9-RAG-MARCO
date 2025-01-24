@@ -10,7 +10,7 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 
 ### Project Developers
 
-The project was developed by Homayoun Afshari, Hossein Khodadadi, and Arash Daneshvar.
+The project was developed by Homayoun Afshari, [Hossein Khodadadi]([https://www.linkedin.com/in/hosseinekhodadadi/](https://hossenkhodadadi.github.io/)), and Arash Daneshvar.
 
 ---
 ## Project Structure
