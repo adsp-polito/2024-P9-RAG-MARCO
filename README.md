@@ -26,7 +26,7 @@ pip install wandb
 
 You also need to clone the dataset repository inside the `data` folder. Run the following command in your terminal:<br/>
 ```bash
-git clone https://github.com/MachineLearning2020/Homework2-Caltech101.git
+https://github.com/adsp-polito/2024-P9-RAG-MARCO/tree/main
 ```
 
 ## Usage
