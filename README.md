@@ -28,7 +28,7 @@ ADSP Project/
 
 As demonstrated in the Figure we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the following [link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/-25-01-25-00-01-37---VmlldzoxMTA3ODgzNg).
 
-![Image](https://github.com/user-attachments/assets/70a8b6b2-6e05-440f-a42d-090c5c2b0fd8)
+![Image](https://github.com/user-attachments/assets/4ec51116-ce5a-4316-9e06-16361acdc049)
 
 ## Installation
 To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
