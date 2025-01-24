@@ -6,11 +6,11 @@ This project focuses on enhancing the **Retrieval-Augmented Generation (RAG)** s
 
 ### Project Stakeholder
 
-The primary stakeholder is **LINKS Foundation**, which seeks to leverage advanced RAG systems for European projects and other applications.
+The primary stakeholder is **LINKS Foundation**, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by Professor Giuseppe Rizzo and Dr. Lorenzo Bongiovanni.
 
 ### Project Developers
 
-The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/).
+The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/) (308563), [Hossein Khodadadi](https://hossenkhodadadi.github.io/) (313884), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/) (314415).
 
 ---
 ## Project Structure
