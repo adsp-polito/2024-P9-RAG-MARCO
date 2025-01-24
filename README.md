@@ -23,7 +23,7 @@ ADSP Project/
 └── report      
 ```
 ## Installation
-To run this project, you need to install the Weights & Biases library (wandb). You can install it via pip:<br/>
+To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
 ```bash
 pip install wandb
 pip install datasets
@@ -38,13 +38,8 @@ pip install spacy
 python -m spacy download en_core_web_sm
 ```
 
-You also need to clone the dataset repository inside the `data` folder. Run the following command in your terminal:<br/>
-```bash
-https://github.com/adsp-polito/2024-P9-RAG-MARCO/tree/main
-```
-
 ## Usage
-Once you have installed the required libraries and cloned the dataset repository, you can simply run the stable_system.ipynb,  you can use the following hyperparameter arguments to customize the training process:
+Once you have installed the required libraries and cloned the dataset repository, you need to  simply run the stable_system.ipynb,  you can use the following hyperparameter arguments to customize the training process:
 
 - `--epoch`: Number of epochs for training (default is 50).
 - `--batch_size`: Batch size for training (default is 512).
