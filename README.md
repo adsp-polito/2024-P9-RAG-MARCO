@@ -47,7 +47,9 @@ python -m spacy download en_core_web_sm
 ```
 
 ## Usage
-Once you have installed the required libraries and cloned the dataset repository, you need to simply `run the stable_system.ipynb`,  you can use the following hyperparameter arguments to customize the training process:
+First, you need to create a directory in your google drive with the following address as you need to mount it later, `ADSP Project/datasets`, copy the content from the same directory in our repository and paste it into your `ADSP Project/datasets`. Now feel free to run the `stable_system.ipynb`.
+
+Second, if you would like to execute the process of data preprocessing to recreate the `ADSP Project/datasets` files, you need to run the `stable_data_cleaning.ipynb`, remember to provide the proper [Qroq API ](https://groq.com/) from your account to the corresponding notebook. You can use the following hyperparameter arguments to customize the training process:
 
 - `--epoch`: Number of epochs for training (default is 50).
 - `--batch_size`: Batch size for training (default is 512).
