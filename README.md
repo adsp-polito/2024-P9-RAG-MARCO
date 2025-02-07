@@ -5,7 +5,7 @@ This research explores the interplay between syntactic and semantic search metho
 
 ![Image](./extras/teaser.svg)
 
-In this project, we first investigate different baseline retrieval mechanisms such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we propose a novel learnable mapping that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce a new metric for evaluating retrieval performance. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric.
+In this project, we first investigate different **baseline retrieval mechanisms** such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we **propose a novel learnable mapping** that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce **a new metric for evaluating retrieval performance**. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric. For more details, please refer to [the last presentation](./checkpoints/checkpoint_03.pdf) or the [the report](./report/t3p9_report.pdf) prepared for this project.
 
 ### Project Stakeholder
 
