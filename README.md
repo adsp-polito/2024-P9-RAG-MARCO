@@ -19,12 +19,12 @@ The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homa
 ## Project Structure
 ```bash
 ADSP Project/
-├── datasets/						# Directory of the datasets
-├── notebooks/            			# Directory of the notebooks
-│   └── stable_system.ipynb			# Main script to create retrieval mechanisms
-│   └── stable_data_cleaning.ipynb	# Main script to perform data cleaning
-├── checkpoints/					# Directory of the checkpoint presentations
-└── report							# Directory of the report
+├── datasets/                       # Directory of the datasets
+├── notebooks/                      # Directory of the notebooks
+│   └── stable_system.ipynb         # Main script to create retrieval mechanisms
+│   └── stable_data_cleaning.ipynb  # Main script to perform data cleaning
+├── checkpoints/                    # Directory of the checkpoint presentations
+└── report/                         # Directory of the report
 ```
 
 ## Wandb Hyperparameter Tuning 
