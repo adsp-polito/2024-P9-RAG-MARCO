@@ -1,4 +1,5 @@
 # Improving Retrieval Performance in Retrieval-Augmented Generation Architecture
+---
 ## Overview
 
 This research explores the interplay between syntactic and semantic search methods for document retrieval in the **Retrieval-Augmented Generation (RAG)** architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a **Retrieval Mechanism** to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into a **Large Language Model (LLM)** for Response Generation. While the RAG architecture was originally designed to help LLMs generate more informed responses, but the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents.
@@ -15,7 +16,6 @@ The primary stakeholder is **LINKS Foundation**, which seeks to leverage advance
 
 The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/).
 
----
 ## Project Structure
 ```bash
 ADSP Project/
@@ -27,12 +27,15 @@ ADSP Project/
 └── report/                         # Directory of the report
 ```
 
-## Wandb Hyperparameter Tuning 
+---
 
-As demonstrated in the following figure, we have performed Bayesian hyperparameter tuning to optimize the arguments. The complete diagram is available at the [following link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu).
+# Wandb Hyperparameter Tuning 
+
+As demonstrated in the following figure, we have performed Bayesian hyperparameter tuning to optimize the proposed method discussed in this project. More details and complete diagram are available in [this link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu).
 
 ![Image](./extras/wandb_filtered.jpg)
 
+---
 ## Installation
 To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
 ```bash
