@@ -2,14 +2,16 @@
 
 ## Overview
 <p align="justify">
-This research explores the interplay between syntactic and semantic search methods for document retrieval in the <b>Retrieval-Augmented Generation (RAG)</b> architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a <b>Retrieval Mechanism</b> to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into a <b>Large Language Model (LLM)</b> for Response Generation. While the RAG architecture was originally designed to help LLMs generate more informed responses, but the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents.
+This research explores the interplay between syntactic and semantic search methods for document retrieval in the <strong>Retrieval-Augmented Generation (RAG)</strong> architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a <strong>Retrieval Mechanism</strong> to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into a <strong>Large Language Model (LLM)</strong> for Response Generation. While the RAG architecture was originally designed to help LLMs generate more informed responses, but the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents.
 </p>
 
 ![Image](./extras/teaser.svg)
 
 <p align="justify">
-In this project, we first investigate different <b>Baseline Retrieval Mechanisms</b> such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we propose <b>A Novel Learnable Mapping</b> that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce <b>A New Metric for Evaluating Retrieval Performance</b>. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric. For more details, please refer to <a href="./checkpoints/checkpoint_03.pdf">the last presentation</a> or the <a href="./report/t3p9_report.pdf">the report</a> prepared for this project.
+In this project, we first investigate different <strong>baseline retrieval mechanisms</strong>, such as syntactic search through textual entities and semantic search with embedding models. Focusing on the latter, we propose a <strong>novel learnable mapping</strong> that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce a <strong>new metric for evaluating retrieval performance</strong>. Our results demonstrate that the proposed method has strong potential to improve semantic search across various metrics, including our novel metric. For more details, please refer to <a href="./checkpoints/checkpoint_03.pdf">the final presentation</a> or the <a href="./report/t3p9_report.pdf">project report</a>. It is worth noting that, in otder to optimize the proposed method, we leveraged <a href="https://wandb.ai/">Weights & Biases</a> for Bayesian hyperparameter search. The figure below summarizes the results; a complete visualization is available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this Weights & Biases report</a>.
 </p>
+
+![Image](./extras/wandb_filtered.jpg)
 
 ### Project Structure
 ```bash
@@ -24,20 +26,13 @@ ADSP Project/
 
 ### Project Stakeholder
 <p align="justify">
-The primary stakeholder is <b>LINKS Foundation</b>, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by <b>Professor Giuseppe Rizzo</b> and <b>Dr. Lorenzo Bongiovanni</b>.
+The primary stakeholder is <strong>LINKS Foundation</strong>, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by <strong>Professor Giuseppe Rizzo</strong> and <strong>Dr. Lorenzo Bongiovanni</strong>.
 </p>
 
 ### Project Developers
 <p align="justify">
 The project was developed by <a href="https://www.linkedin.com/in/homayoun-afshari/">Homayoun Afshari</a>, <a href="https://hossenkhodadadi.github.io/">Hossein Khodadadi</a>, and <a href="https://www.linkedin.com/in/arash-daneshvar/">Arash Daneshvar</a>.
 </p>
-
-## Wandb Hyperparameter Tuning
-<p align="justify">
-As demonstrated in the following figure, we have performed Bayesian hyperparameter tuning to optimize the proposed method discussed in this project. More details and complete diagram are available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this link</a>.
-</p>
-
-![Image](./extras/wandb_filtered.jpg)
 
 ---
 ## Installation
