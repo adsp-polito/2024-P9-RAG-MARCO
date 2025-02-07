@@ -11,17 +11,7 @@ This research explores the interplay between syntactic and semantic search metho
 In this project, we first investigate different <b>Baseline Retrieval Mechanisms</b> such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we propose <b>A Novel Learnable Mapping</b> that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce <b>A New Metric for Evaluating Retrieval Performance</b>. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric. For more details, please refer to <a href="./checkpoints/checkpoint_03.pdf">the last presentation</a> or the <a href="./report/t3p9_report.pdf">the report</a> prepared for this project.
 </p>
 
-### Project Stakeholder
-<p align="justify">
-The primary stakeholder is <b>LINKS Foundation</b>, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by <b>Professor Giuseppe Rizzo</b> and <b>Dr. Lorenzo Bongiovanni</b>.
-</p>
-
-### Project Developers
-<p align="justify">
-The project was developed by <a href="https://www.linkedin.com/in/homayoun-afshari/">Homayoun Afshari</a>, <a href="https://hossenkhodadadi.github.io/">Hossein Khodadadi</a>, and <a href="https://www.linkedin.com/in/arash-daneshvar/">Arash Daneshvar</a>.
-</p>
-
-## Project Structure
+### Project Structure
 ```bash
 ADSP Project/
 ├── datasets/                       # Directory of the datasets
@@ -32,8 +22,20 @@ ADSP Project/
 └── report/                         # Directory of the report
 ```
 
+### Project Stakeholder
+<p align="justify">
+The primary stakeholder is <b>LINKS Foundation</b>, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by <b>Professor Giuseppe Rizzo</b> and <b>Dr. Lorenzo Bongiovanni</b>.
+</p>
+
+### Project Developers
+<p align="justify">
+The project was developed by <a href="https://www.linkedin.com/in/homayoun-afshari/">Homayoun Afshari</a>, <a href="https://hossenkhodadadi.github.io/">Hossein Khodadadi</a>, and <a href="https://www.linkedin.com/in/arash-daneshvar/">Arash Daneshvar</a>.
+</p>
+
 ## Wandb Hyperparameter Tuning
-As demonstrated in the following figure, we have performed Bayesian hyperparameter tuning to optimize the proposed method discussed in this project. More details and complete diagram are available in [this link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu).
+<p align="justify">
+As demonstrated in the following figure, we have performed Bayesian hyperparameter tuning to optimize the proposed method discussed in this project. More details and complete diagram are available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this link</a>.
+</p>
 
 ![Image](./extras/wandb_filtered.jpg)
 
