@@ -3,7 +3,7 @@
 
 This research explores the interplay between syntactic and semantic search methods for document retrieval in the **Retrieval-Augmented Generation (RAG)** architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a **Retrieval Mechanism** to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into a **Large Language Model (LLM)** for Response Generation. While the RAG architecture was originally designed to help LLMs generate more informed responses, but the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents.
 
-![Image](extras/teasure.svg)
+![Image](./extras/teasure.svg)
 
 In this project, we first investigate different baseline retrieval mechanisms such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we propose a novel learnable mapping that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce a new metric for evaluating retrieval performance. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric.
 
