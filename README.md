@@ -1,5 +1,5 @@
 # Improving Retrieval Performance in Retrieval-Augmented Generation Architecture
----
+
 ## Overview
 
 This research explores the interplay between syntactic and semantic search methods for document retrieval in the **Retrieval-Augmented Generation (RAG)** architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a **Retrieval Mechanism** to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into a **Large Language Model (LLM)** for Response Generation. While the RAG architecture was originally designed to help LLMs generate more informed responses, but the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents.
@@ -27,10 +27,7 @@ ADSP Project/
 └── report/                         # Directory of the report
 ```
 
----
-
-# Wandb Hyperparameter Tuning 
-
+## Wandb Hyperparameter Tuning
 As demonstrated in the following figure, we have performed Bayesian hyperparameter tuning to optimize the proposed method discussed in this project. More details and complete diagram are available in [this link](https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu).
 
 ![Image](./extras/wandb_filtered.jpg)
