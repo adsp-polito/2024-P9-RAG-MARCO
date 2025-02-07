@@ -8,16 +8,18 @@ This research explores the interplay between syntactic and semantic search metho
 ![Image](./extras/teaser.svg)
 
 <p align="justify">
-In this project, we first investigate different <b>Baseline Retrieval Mechanisms</b> such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we propose <b>A Novel Learnable Mapping</b> that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce <b>A New Metric for Evaluating Retrieval Performance</b>. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric. For more details, please refer to <a href="./checkpoints/checkpoint_03.pdf">the last presentation</a> or the [the report](./report/t3p9_report.pdf) prepared for this project.
+In this project, we first investigate different <b>Baseline Retrieval Mechanisms</b> such as syntactic search through textual entities and semantic search with embedding models. Then, focusing on the latter, we propose <b>A Novel Learnable Mapping</b> that optimizes question embeddings by aligning them with relevant document clusters via contrastive learning. We also introduce <b>A New Metric for Evaluating Retrieval Performance</b>. Our results demonstrate that the proposed method has a good potential to improve semantic search across various metrics, including our novel metric. For more details, please refer to <a href="./checkpoints/checkpoint_03.pdf">the last presentation</a> or the <a href="./report/t3p9_report.pdf">the report</a> prepared for this project.
 </p>
 
 ### Project Stakeholder
-
-The primary stakeholder is **LINKS Foundation**, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by Professor Giuseppe Rizzo and Dr. Lorenzo Bongiovanni.
+<p align="justify">
+The primary stakeholder is <b>LINKS Foundation</b>, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by <b>Professor Giuseppe Rizzo</b> and <b>Dr. Lorenzo Bongiovanni</b>.
+</p>
 
 ### Project Developers
-
-The project was developed by [Homayoun Afshari](https://www.linkedin.com/in/homayoun-afshari/), [Hossein Khodadadi](https://hossenkhodadadi.github.io/), and [Arash Daneshvar](https://www.linkedin.com/in/arash-daneshvar/).
+<p align="justify">
+The project was developed by <a href="https://www.linkedin.com/in/homayoun-afshari/">Homayoun Afshari</a>, <a href="https://hossenkhodadadi.github.io/">Hossein Khodadadi</a>, and <a href="https://www.linkedin.com/in/arash-daneshvar/">Arash Daneshvar</a>.
+</p>
 
 ## Project Structure
 ```bash
