@@ -11,7 +11,7 @@
   <p>Therefore, this research tackles two fundamental questions that lie at the heart of effective RAG:</p>
 
   <ul>
-    <li><strong>How can we achieve truly reliable retrieval?</strong> We're exploring cutting-edge techniques to ensure we're not just finding <em>any</em> documents, but the <em>right</em> onese</li>
+    <li><strong>How can we achieve truly reliable retrieval?</strong> We're exploring cutting-edge techniques to ensure we're not just finding <em>any</em> documents, but the <em>right</em> ones.</li>
     <li><strong>How can we rigorously evaluate that reliability?</strong> We're developing robust metrics to measure the effectiveness of our retrieval methods and ensure they're up to the task.</li>
   </ul>
 </p>
