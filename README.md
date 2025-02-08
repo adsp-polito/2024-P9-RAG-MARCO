@@ -2,9 +2,18 @@
 
 ## Overview
 <p align="justify">
-This research explores the interplay between syntactic and semantic search methods for document retrieval in the <strong>Retrieval-Augmented Generation (RAG)</strong> architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a <strong>Retrieval Mechanism</strong> to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into an LLM for <strong>Response Generation</strong>. In fact, the RAG architecture was originally designed to help LLMs generate more informed responses, but still the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents. Therefore, this research tries to answer to main questions:
-   - How to retreive reliably?
-   - How to evaluate that reliability?
+  <p>This research plunges into the fascinating world of Retrieval-Augmented Generation (RAG) by exploring the crucial interplay between syntactic and semantic search for document retrieval. Imagine a system where questions are not just answered, but <em>masterfully</em> answered, drawing upon a wealth of relevant information. That's the promise of RAG.</p>
+
+  <p>As depicted in the figure below, a RAG system operates as a powerful pipeline. First, a sophisticated <strong>Retrieval Mechanism</strong> searches through a vast database, pinpointing the most relevant documents related to the input question. These carefully selected documents are then combined with the original question to form an enriched query, which is subsequently fed into a Large Language Model (LLM) for <strong>Response Generation</strong>.</p>
+
+  <p>While RAG is essentially revolutionizing how LLMs generate informed responses, the retrieval mechanism remains the keystone. The quality of the final answer hinges critically on the relevance of the retrieved documents. Garbage in, garbage out, as they say!</p>
+
+  <p>Therefore, this research tackles two fundamental questions that lie at the heart of effective RAG:</p>
+
+  <ul>
+    <li><strong>How can we achieve truly reliable retrieval?</strong> We're exploring cutting-edge techniques to ensure we're not just finding <em>any</em> documents, but the <em>right</em> onese</li>
+    <li><strong>How can we rigorously evaluate that reliability?</strong> We're developing robust metrics to measure the effectiveness of our retrieval methods and ensure they're up to the task.</li>
+  </ul>
 </p>
 
 ![Image](./extras/teaser.svg)
