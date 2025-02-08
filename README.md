@@ -2,7 +2,9 @@
 
 ## Overview
 <p align="justify">
-This research explores the interplay between syntactic and semantic search methods for document retrieval in the <strong>Retrieval-Augmented Generation (RAG)</strong> architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a <strong>Retrieval Mechanism</strong> to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into a <strong>Large Language Model (LLM)</strong> for Response Generation. While the RAG architecture was originally designed to help LLMs generate more informed responses, but the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents.
+This research explores the interplay between syntactic and semantic search methods for document retrieval in the <strong>Retrieval-Augmented Generation (RAG)</strong> architecture. As illustrated in the following figure, A RAG system comprises a pipeline where the question is processed through a <strong>Retrieval Mechanism</strong> to identify the most relevant documents stored in a database. These documents are then aggregated with the question to construct an enhanced query, which is subsequently fed into an LLM for <strong>Response Generation</strong>. In fact, the RAG architecture was originally designed to help LLMs generate more informed responses, but still the retrieval mechanism serves as a primary role in such architecture, as the quality of the final response depends heavily on the relevance of the retrieved documents. Therefore, this research tries to answer to main questions:
+   - How to retreive reliably?
+   - How to evaluate that reliability?
 </p>
 
 ![Image](./extras/teaser.svg)
