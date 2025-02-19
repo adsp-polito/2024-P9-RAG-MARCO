@@ -39,13 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	addEventListeners(domBtnConnect, ['click', 'touchstart'], async () => {
 		domBtnConnect.classList.add('disabled');
-		//const result = await sendPostRequest('SEND_QUERIES');
-		const result = {
-			2: 'What are the key differences between machine learning and deep learning, and in what scenarios is deep learning preferred over traditional machine learning?',
-			1: 'Machine learning includes various algorithms such as decision trees and support vector machines, whereas deep learning relies on multi-layered neural networks. Deep learning is preferred in scenarios like image recognition and NLP, where large datasets and high computational power allow for automated feature extraction.',
-			6: 'How does reinforcement learning differ from supervised learning, and what are some real-world applications of reinforcement learning?',
-			0: 'Why is feature engineering important in machine learning, and how does it impact model performance?'
-		};
+		const result = await sendPostRequest('SEND_QUERIES');
+		// const result = {
+			// 2: 'What are the key differences between machine learning and deep learning, and in what scenarios is deep learning preferred over traditional machine learning?',
+			// 1: 'Machine learning includes various algorithms such as decision trees and support vector machines, whereas deep learning relies on multi-layered neural networks. Deep learning is preferred in scenarios like image recognition and NLP, where large datasets and high computational power allow for automated feature extraction.',
+			// 6: 'How does reinforcement learning differ from supervised learning, and what are some real-world applications of reinforcement learning?',
+			// 0: 'Why is feature engineering important in machine learning, and how does it impact model performance?'
+		// };
 		if (result) {
 			const domQuestionBox = domPageUplink.getElementsByClassName('box questions')[0];
 			Object.entries(result).forEach(([questionIndex, question]) => {
@@ -70,30 +70,30 @@ document.addEventListener('DOMContentLoaded', () => {
 	addEventListeners(domBtnAsk, ['click', 'touchstart'], async () => {
 		const domQuestionBox = domPageUplink.getElementsByClassName('box questions')[0];
 		const domQuestions = domQuestionBox.getElementsByClassName('question');
-		Array.from(domQuestions).forEach((domQuestion) => {
+		Array.from(domQuestions).forEach(async (domQuestion) => {
 			if (domQuestion.classList.contains('selected')) {
 				domBtnAsk.classList.add('disabled');
-				//const result = await sendPostRequest(domQuestion.index);
-				const result = {
-					'good': {
-						'docs': [
-							'Machine learning includes traditional algorithms like decision trees and linear regression.',
-							'Deep learning relies on multi-layered neural networks to automatically extract features.',
-							'Deep learning is particularly effective for tasks like image and speech recognition.',
-							'Traditional machine learning works well with structured data and smaller datasets.'
-						],
-						'answer': 'Deep learning is a subset of machine learning that uses neural networks with multiple layers, making it ideal for complex pattern recognition tasks like NLP and computer vision.'
-					},
-					'bad': {
-						'docs': [
-							'Relevant information was not found in the dataset.',
-							'Dataset lacks details on deep learning techniques and applications.',
-							'Consider expanding the dataset to include machine learning-related content.',
-							'No sufficient data available to compare machine learning and deep learning.'
-						],
-						'answer': 'Relevant information was not found in the dataset. Please check the input data or consider adding more sources.'
-					}
-				};
+				const result = await sendPostRequest(domQuestion.index);
+				// const result = {
+					// 'good': {
+						// 'docs': [
+							// 'Machine learning includes traditional algorithms like decision trees and linear regression.',
+							// 'Deep learning relies on multi-layered neural networks to automatically extract features.',
+							// 'Deep learning is particularly effective for tasks like image and speech recognition.',
+							// 'Traditional machine learning works well with structured data and smaller datasets.'
+						// ],
+						// 'answer': 'Deep learning is a subset of machine learning that uses neural networks with multiple layers, making it ideal for complex pattern recognition tasks like NLP and computer vision.'
+					// },
+					// 'bad': {
+						// 'docs': [
+							// 'Relevant information was not found in the dataset.',
+							// 'Dataset lacks details on deep learning techniques and applications.',
+							// 'Consider expanding the dataset to include machine learning-related content.',
+							// 'No sufficient data available to compare machine learning and deep learning.'
+						// ],
+						// 'answer': 'Relevant information was not found in the dataset. Please check the input data or consider adding more sources.'
+					// }
+				// };
 				if (result) {
 					const domDownlinkQuestionBox = domPageDownlink.getElementsByClassName('box questions')[0];
 					const domGoodResponseBox = domPageDownlink.getElementsByClassName('box responses good')[0];
