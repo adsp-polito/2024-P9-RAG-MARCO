@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGT3</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script>
+		const API_URL = 'https://b7c7-35-240-242-84.ngrok-free.app/requests';
+		const DOC_SVG = '<svg version="1.1" viewBox="0 -.5 14.5 15.5" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.03125 0 0 .03125 0 -.5)" d="m152 0c-83.663 0-152 68.337-152 152v192c0 83.662 68.337 152 152 152h160c83.662 0 152-68.338 152-152v-192c0-83.663-68.338-152-152-152h-160zm0 48h160c57.72 0 104 46.278 104 104v192c0 57.72-46.28 104-104 104h-160c-57.722 0-104-46.28-104-104v-192c0-57.722 46.278-104 104-104zm-16 80c-13.255 0-24 10.745-24 24s10.745 24 24 24h192c13.254 0 24-10.745 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h192c13.254 0 24-10.746 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h96c13.254 0 24-10.746 24-24s-10.746-24-24-24h-96z" clip-rule="evenodd" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/></svg>';
+	</script>
+	<script src="scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<div class="page front">
+			<span class="btn connect">Connect</span>
+		</div>
+		
+		<div class="page uplink hidden">
+			<span class="title">Choose A Question to Ask</span>
+			<div class="box questions">
+				<!-- <span class="question">What are the key differences between machine learning and deep learning?</span> -->
+				<!-- <span class="question">How does encryption help in securing online communications?</span> -->
+				<!-- <span class="question">What are the main principles of data protection under GDPR?</span> -->
+				<!-- <span class="question">Why is statistical significance important in hypothesis testing?</span> -->
+				<!-- <span class="question">How do search engines determine the relevance of web pages to a query?</span> -->
+			</div>
+			<span class="btn ask disabled">Ask</span>
+		</div>
+		
+		<div class="page downlink hidden">
+			<span class="title">Question:</span>
+			<div class="box questions">
+				<span class="question">What are the key differences between machine learning and deep learning, and in what scenarios is deep learning preferred over traditional machine learning?</span>
+			</div>
+			<span class="title">Proper Response:</span>
+			<div class="box responses good">
+				<span class="response">Machine learning encompasses a broad set of algorithms that learn from data, including decision trees, support vector machines, and linear regression. Deep learning, a subset of machine learning, relies on neural networks with multiple layers to automatically extract features from raw data. Deep learning excels in tasks like image recognition, natural language processing, and complex pattern recognition, where large datasets and high computational power are available.</span>
+				<div class="docs">
+					<!-- <div class="doc"> -->
+						<!-- <svg version="1.1" viewBox="0 -.5 14.5 15.5" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.03125 0 0 .03125 0 -.5)" d="m152 0c-83.663 0-152 68.337-152 152v192c0 83.662 68.337 152 152 152h160c83.662 0 152-68.338 152-152v-192c0-83.663-68.338-152-152-152h-160zm0 48h160c57.72 0 104 46.278 104 104v192c0 57.72-46.28 104-104 104h-160c-57.722 0-104-46.28-104-104v-192c0-57.722 46.278-104 104-104zm-16 80c-13.255 0-24 10.745-24 24s10.745 24 24 24h192c13.254 0 24-10.745 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h192c13.254 0 24-10.746 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h96c13.254 0 24-10.746 24-24s-10.746-24-24-24h-96z" clip-rule="evenodd" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/></svg> -->
+					<!-- </div> -->
+					<!-- <div class="doc"> -->
+						<!-- <svg version="1.1" viewBox="0 -.5 14.5 15.5" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.03125 0 0 .03125 0 -.5)" d="m152 0c-83.663 0-152 68.337-152 152v192c0 83.662 68.337 152 152 152h160c83.662 0 152-68.338 152-152v-192c0-83.663-68.338-152-152-152h-160zm0 48h160c57.72 0 104 46.278 104 104v192c0 57.72-46.28 104-104 104h-160c-57.722 0-104-46.28-104-104v-192c0-57.722 46.278-104 104-104zm-16 80c-13.255 0-24 10.745-24 24s10.745 24 24 24h192c13.254 0 24-10.745 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h192c13.254 0 24-10.746 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h96c13.254 0 24-10.746 24-24s-10.746-24-24-24h-96z" clip-rule="evenodd" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/></svg> -->
+					<!-- </div> -->
+					<!-- <div class="doc"> -->
+						<!-- <svg version="1.1" viewBox="0 -.5 14.5 15.5" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.03125 0 0 .03125 0 -.5)" d="m152 0c-83.663 0-152 68.337-152 152v192c0 83.662 68.337 152 152 152h160c83.662 0 152-68.338 152-152v-192c0-83.663-68.338-152-152-152h-160zm0 48h160c57.72 0 104 46.278 104 104v192c0 57.72-46.28 104-104 104h-160c-57.722 0-104-46.28-104-104v-192c0-57.722 46.278-104 104-104zm-16 80c-13.255 0-24 10.745-24 24s10.745 24 24 24h192c13.254 0 24-10.745 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h192c13.254 0 24-10.746 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h96c13.254 0 24-10.746 24-24s-10.746-24-24-24h-96z" clip-rule="evenodd" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/></svg> -->
+					<!-- </div> -->
+				</div>
+			</div>
+			<span class="title">Improper Response:</span>
+			<div class="box responses bad">
+				<span class="response">Relevant information was not found in the dataset. Please check the input data or consider expanding the dataset to include deep learning-related content.</span>
+				<div class="docs">
+					<!-- <div class="doc"> -->
+						<!-- <svg version="1.1" viewBox="0 -.5 14.5 15.5" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.03125 0 0 .03125 0 -.5)" d="m152 0c-83.663 0-152 68.337-152 152v192c0 83.662 68.337 152 152 152h160c83.662 0 152-68.338 152-152v-192c0-83.663-68.338-152-152-152h-160zm0 48h160c57.72 0 104 46.278 104 104v192c0 57.72-46.28 104-104 104h-160c-57.722 0-104-46.28-104-104v-192c0-57.722 46.278-104 104-104zm-16 80c-13.255 0-24 10.745-24 24s10.745 24 24 24h192c13.254 0 24-10.745 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h192c13.254 0 24-10.746 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h96c13.254 0 24-10.746 24-24s-10.746-24-24-24h-96z" clip-rule="evenodd" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/></svg> -->
+					<!-- </div> -->
+					<!-- <div class="doc"> -->
+						<!-- <svg version="1.1" viewBox="0 -.5 14.5 15.5" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.03125 0 0 .03125 0 -.5)" d="m152 0c-83.663 0-152 68.337-152 152v192c0 83.662 68.337 152 152 152h160c83.662 0 152-68.338 152-152v-192c0-83.663-68.338-152-152-152h-160zm0 48h160c57.72 0 104 46.278 104 104v192c0 57.72-46.28 104-104 104h-160c-57.722 0-104-46.28-104-104v-192c0-57.722 46.278-104 104-104zm-16 80c-13.255 0-24 10.745-24 24s10.745 24 24 24h192c13.254 0 24-10.745 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h192c13.254 0 24-10.746 24-24s-10.746-24-24-24h-192zm0 96c-13.255 0-24 10.746-24 24s10.745 24 24 24h96c13.254 0 24-10.746 24-24s-10.746-24-24-24h-96z" clip-rule="evenodd" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/></svg> -->
+					<!-- </div> -->
+				</div>
+			</div>
+			<div class="cover hidden">
+				<span class="content"></span>
+				<span class="btn close">X</span>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
