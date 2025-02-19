@@ -2,9 +2,9 @@
 
 ## Overview
 <p align="justify">
-  <p>This research plunges into the fascinating world of Retrieval-Augmented Generation (RAG) by exploring the crucial interplay between syntactic and semantic search for document retrieval. Imagine a system where questions are not just answered, but <em>masterfully</em> answered, drawing upon a wealth of relevant information. That's the promise of RAG.</p>
+  <p>This research explores the fascinating world of Retrieval-Augmented Generation (RAG) by studying the interplay between syntactic and semantic search for document retrieval. Imagine a system where questions are not just answered, but <em>masterfully</em> answered according to a wealth of relevant information. That's the promise of RAG.</p>
 
-  <p>As depicted in the figure below, a RAG system operates as a powerful pipeline. First, a sophisticated <strong>Retrieval Mechanism</strong> searches through a vast database, pinpointing the most relevant documents related to the input question. These carefully selected documents are then combined with the original question to form an enriched query, which is subsequently fed into a Large Language Model (LLM) for <strong>Response Generation</strong>.</p>
+  <p>As depicted in the figure below, a RAG system operates as a powerful pipeline. First, a sophisticated <strong>Retrieval Mechanism</strong> searches through a vast database ad pinpoints the most relevant documents related to the input question. These carefully selected documents are then combined with the original question to form an enriched query, which is subsequently fed into a Large Language Model (LLM) for <strong>Response Generation</strong>.</p>
 
   <p>While RAG is essentially revolutionizing how LLMs generate informed responses, the retrieval mechanism remains the keystone. The quality of the final answer hinges critically on the relevance of the retrieved documents. Garbage in, garbage out, as they say!</p>
 
