@@ -62,6 +62,22 @@
 
 ---
 ## Installation
+
+### General Requirements
+Ensure you have Python installed along with the necessary dependencies. Install them using:
+
+### Running the System
+To run the full system, follow the steps outlined in [this notebook](./notebooks/stable_system.ipynb).
+
+### Running the Data Cleaner
+To clean and preprocess the datasets, execute the instructions provided in [this notebook](./notebooks/stable_data_cleaning.ipynb).
+
+### Running the Webserver
+To host the web application, follow the setup described in [this notebook](./notebooks/stable_webapp.ipynb).
+
+
+
+## Installation
 To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
 ```bash
 pip install wandb
