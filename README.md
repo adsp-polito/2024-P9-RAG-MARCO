@@ -64,7 +64,7 @@
 ## Installation
 
 ### General Requirements
-<p>The project relies on several dependencies for different components, including system execution, data cleaning, and web application hosting. The table below summarizes the required packages and their usage across the different notebooks.</p>
+<p>The project relies on several dependencies for different components, including system execution, data cleaning, and web application hosting. The table below summarizes the required packages and their usage across the different notebooks. In addition, since the main environment used for this project is Google Colab, you need to ensure that your Google Drive is set up correctly. For this purpose, create a folder named <code>ADSP Project</code> at the root of your Google Drive. Inside this folder, create another folder named <code>datasets</code>. Then, copy the contents of the <a href="./datasets/">datasets</a> folder from the repository into this newly created folder on your Google Drive.</p>
 
 <table>
   <tr>
