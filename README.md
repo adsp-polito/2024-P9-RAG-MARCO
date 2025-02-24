@@ -55,12 +55,7 @@
 
 ### Project Stakeholder
 <p align="justify">
-The primary stakeholder is <a href="">LINKS Foundation</a>, which seeks to leverage advanced RAG systems for European projects and other applications. The project was supervised by <strong>Professor Giuseppe Rizzo</strong> and <strong>Dr. Lorenzo Bongiovanni</strong>.
-</p>
-
-### Project Developers
-<p align="justify">
-The project was developed by <a href="https://www.linkedin.com/in/homayoun-afshari/">Homayoun Afshari</a>, <a href="https://hossenkhodadadi.github.io/">Hossein Khodadadi</a>, and <a href="https://www.linkedin.com/in/arash-daneshvar/">Arash Daneshvar</a>.
+The primary stakeholder of this project is <a href="https://linksfoundation.com/en/">LINKS Foundation</a> that operates in the field of digital transformation with applied research, innovation, and technology transfer activities. This work was conducted at <a href="https://www.polito.it/en">Politecnico di Torino</a> for the course <strong>Applied Data Science Project</strong> under the supervision of <a href="https://www.polito.it/personale?p=015390">Professor Giuseppe Rizzo</a>, with light mentoring provided by <a href="https://it.linkedin.com/in/lorenzo-bongiovanni-32b3b7112">Dr. Lorenzo Bongiovanni</a>. The project was developed by <a href="https://www.linkedin.com/in/homayoun-afshari/">Homayoun Afshari</a>, <a href="https://hossenkhodadadi.github.io/">Hossein Khodadadi</a>, and <a href="https://www.linkedin.com/in/arash-daneshvar/">Arash Daneshvar</a>.
 </p>
 
 ---
