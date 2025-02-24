@@ -53,7 +53,7 @@
 │   └── checkpoint_02.pdf                 # Presentation on the second checkpoint
 │   └── checkpoint_03.pdf                 # Presentation on the third checkpoint
 │   └── exam.pdf                          # Presentation on the exam day
-└─── report/                               # Directory of the report
+└─── report/                              # Directory of the report
     └── t3p9_report.pdf                   # The report
 ```
 
