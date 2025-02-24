@@ -2,6 +2,7 @@
 
 ## Overview
 <p align="justify">
+  
   <p>This research explores the world of Retrieval-Augmented Generation (RAG) by studying the interplay between syntactic and semantic search for document retrieval. As depicted in the figure below, a RAG system operates as a powerful pipeline. First, a sophisticated <strong>Retrieval Mechanism</strong> searches through a vast database and pinpoints the most relevant documents related to the input question. These carefully selected documents are then combined with the original question to form an enriched query, which is subsequently fed into a Large Language Model (LLM) for <strong>Response Generation</strong>.</p>
 
   <p>While RAG is essentially revolutionizing how LLMs generate informed responses, the retrieval mechanism remains the keystone. The quality of the final answer hinges critically on the relevance of the retrieved documents. Garbage in, garbage out, as they say! Therefore, this research revolves around two fundamental questions:</p>
@@ -22,6 +23,7 @@
   <p>Our results demonstrate the significant potential of our proposed method to improve semantic search across multiple metrics, including our novel metric. For a comprehensive understanding of the technical details, we invite you to explore <a href="./presentations/exam.pdf">the exam presentation</a> and the <a href="./report/t3p9_report.pdf">the project report</a>.</p>
 
   <p>It is worth noting that we leveraged the capabilities of <a href="https://wandb.ai/">Weights & Biases</a> for Bayesian hyperparameter optimization to fine-tune our proposed method. A summary of our key findings is presented in the figure below, with a complete and interactive visualization available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this interactive report</a>.</p>
+
 </p>
 
 ![Image](./extras/wandb_filtered.jpg)
@@ -55,7 +57,11 @@
 
 ### Project Stakeholder
 <p align="justify">
-The primary stakeholder of this project is <a href="https://linksfoundation.com/en/">LINKS Foundation</a> that operates in the field of digital transformation with applied research, innovation, and technology transfer activities. This work was conducted at <a href="https://www.polito.it/en">Politecnico di Torino</a> for the course <strong>Applied Data Science Project</strong> under the supervision of <a href="https://www.polito.it/personale?p=015390">Professor Giuseppe Rizzo</a>, with light mentoring provided by <a href="https://it.linkedin.com/in/lorenzo-bongiovanni-32b3b7112">Dr. Lorenzo Bongiovanni</a>. The project was developed by <a href="https://github.com/homayoun-afshari">Homayoun Afshari</a>, <a href="https://github.com/HOSSENkhodadadi">Hossein Khodadadi</a>, and <a href="https://github.com/ArashDaneshvar">Arash Daneshvar</a>.
+
+  <p>The primary stakeholder of this project is <a href="https://linksfoundation.com/en/">LINKS Foundation</a> that operates in the field of digital transformation with applied research, innovation, and technology transfer activities. This work was conducted at <a href="https://www.polito.it/en">Politecnico di Torino</a> for the course <strong>Applied Data Science Project</strong> under the supervision of <a href="https://www.polito.it/personale?p=015390">Professor Giuseppe Rizzo</a>, with light mentoring provided by <a href="https://it.linkedin.com/in/lorenzo-bongiovanni-32b3b7112">Dr. Lorenzo Bongiovanni</a>.</p>
+
+  <p>The project was developed by <a href="https://github.com/homayoun-afshari">Homayoun Afshari</a>, <a href="https://github.com/HOSSENkhodadadi">Hossein Khodadadi</a>, and <a href="https://github.com/ArashDaneshvar">Arash Daneshvar</a>.</p>
+
 </p>
 
 ---
