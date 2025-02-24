@@ -23,7 +23,7 @@
 
   <p>Furthermore, in addition to formally defining the problem and investigating current performance metrics, we introduce a <strong>new metric for evaluating retrieval performance</strong>. This metric provides a more nuanced and comprehensive assessment of retrieval effectiveness, which addresses the second question.</p>
 
-  <p>Our results demonstrate the significant potential of our proposed method to improve semantic search across multiple metrics, including our novel metric. For a comprehensive understanding of the technical details, we invite you to explore <a href="./checkpoints/checkpoint_03.pdf">the final presentation</a> and the <a href="./report/t3p9_report.pdf">the project report</a>.</p>
+  <p>Our results demonstrate the significant potential of our proposed method to improve semantic search across multiple metrics, including our novel metric. For a comprehensive understanding of the technical details, we invite you to explore <a href="./presentations/exam.pdf">the exam presentation</a> and the <a href="./report/t3p9_report.pdf">the project report</a>.</p>
 
   <p>It is worth noting that we leveraged the capabilities of <a href="https://wandb.ai/">Weights & Biases</a> for Bayesian hyperparameter optimization to fine-tune our proposed method. A summary of our key findings is presented in the figure below, with a complete and interactive visualization available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this interactive report</a>.</p>
 </p>
