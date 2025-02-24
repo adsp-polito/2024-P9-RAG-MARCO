@@ -32,13 +32,29 @@
 
 ### Project Structure
 ```bash
-ADSP Project/
-├── datasets/                       # Directory of the datasets
-├── notebooks/                      # Directory of the notebooks
-│   └── stable_system.ipynb         # Main script to create retrieval mechanisms
-│   └── stable_data_cleaning.ipynb  # Main script to perform data cleaning
-├── checkpoints/                    # Directory of the checkpoint presentations
-└── report/                         # Directory of the report
+2024-P9-RAG-MARCO/
+├── datasets/                             # Directory of the cleaned datasets
+│   └── hotpot-qa-no-augmentation.pickle  # 1000 non-augmented queries from Hotpot-QA dataset
+│   └── hotpot-qa-spacy-llama8b.pickle    # 100 augmented queries from Hotpot-QA dataset
+│   └── ms-marco-no-augmentation.pickle   # 1000 non-augmented queries of MS-Marco dataset
+│   └── ms-marco-spacy-llama8b.pickle     # 100 augmented queries from MS-Marco dataset
+├── demo/                                 # Directory of the files used for demo
+│   └── favicon.ico                       # Icon
+│   └── index.html                        # Main HTML homepage
+│   └── scripts.js                        # Front-End scripts in Vanilla JS
+│   └── styles.css                        # Front-End styles in CSS
+├── extras/                               # Directory of the extra files used in the readme
+├── notebooks/                            # Directory of the notebooks
+│   └── stable_system.ipynb               # Notebook used to implement the system
+│   └── stable_data_cleaning.ipynb        # Notebook used to perform data cleaning
+│   └── stable_webapp.ipynb               # Notebook used to host a webserver on Calab
+├── presentations/                        # Directory of the presentations
+│   └── checkpoint_01.pdf                 # Presentation on the first checkpoint
+│   └── checkpoint_02.pdf                 # Presentation on the second checkpoint
+│   └── checkpoint_03.pdf                 # Presentation on the third checkpoint
+│   └── exam.pdf                          # Presentation on the exam day
+└─── report/                              # Directory of the report
+    └── t3p9_report.pdf                   # The report
 ```
 
 ### Project Stakeholder
