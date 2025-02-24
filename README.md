@@ -196,71 +196,7 @@
 ### Running the Webserver
 <p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>.</p>
 
-
-
-## Installation
-To run this project, you need to install the packages available in the stable_system notebook. You can install it via pip:<br/>
-```bash
-pip install wandb
-pip install datasets
-pip install sentence_transformers
-pip install faiss-cpu
-pip install faiss-gpu
-pip install scann
-pip install rapidfuzz
-pip install python-Levenshtein
-pip install rank-bm25
-pip install spacy
-python -m spacy download en_core_web_sm
-```
-
-## Usage
-First, you need to create a directory in your google drive with the following address as you need to mount it later, `ADSP Project/datasets`, copy the content from the same directory in our repository and paste it into your `ADSP Project/datasets`. Now feel free to run the `stable_system.ipynb`.
-
-Second, if you would like to execute the process of data preprocessing to recreate the `ADSP Project/datasets` files, you need to run the `stable_data_cleaning.ipynb`, remember to provide the proper [Qroq API ](https://groq.com/) from your account to the corresponding notebook. You can use the following hyperparameter arguments to customize the training process:
-
-- `--epoch`: Number of epochs for training (default is 50).
-- `--batch_size`: Batch size for training (default is 512).
-- `--learning_rate`: Learning rate (default is 0.0001).
-- `--margin`: The margin which separates the positive and negative samples.
-- `--mode`: Policy for choosing the positive and negative samples.
-- `--norm_order`: Normalization order.
-- `--positive_tendency`: The tendency to choose positive samples over negative samples.
-- `--preferred_total`: Total number of positive/negative chosen samples for contrastive loss.
-
-
-## Objectives
-
-1. Enhance the **retrieval process** by incorporating advanced chunk processing, including:
-   - Summarization
-   - Topic extraction
-   - Key entity identification
-2. Optimize **query expansion** to:
-   - Identify relevant topics and entities
-   - Differentiate instructions from user queries
-   - Handle multiple questions effectively
-
 ---
-
-## Data
-<!---
-We use the **MS MARCO dataset (Microsoft Machine Reading Comprehension)**, a large-scale, open-source dataset for passage ranking and question answering. The dataset includes:
-- **Triplets**: Query, passage, relevance score
-- Tasks:
-  - **Passage Retrieval**: Evaluate retrieval quality
-  - **Question Answering**: Derive answers using passages 
---->
-
-We use the MS MARCO dataset (Microsoft Machine Reading Comprehension) and TriviaQA, two large-scale, open-source datasets for passage ranking and question answering. The datasets include:
-
-- **MS MARCO**:
-Triplets: Query, passage, relevance score  
-
-  Tasks:
-   - Passage Retrieval: Evaluate retrieval quality
-   - Question Answering: Derive answers using passages
----
-
 ## Workflow
 
 ### Project Phases
@@ -281,18 +217,7 @@ Triplets: Query, passage, relevance score
    - Develop the final product
    - Deliver project presentations and take exams
 
-### Tools and Techniques
-- **Natural Language Processing (NLP)** techniques such as Named Entity Recognition (NER) and summarization
-- **Scoring mechanisms** to improve retrieval accuracy
-
 ---
-
-## Mentorship
-
-The project is supported by **Lorenzo Bongiovanni** from LINKS Foundation. Guidance is provided through **biweekly mentoring calls**.
-
----
-
 ## Contribution
 
 This repository is a collaborative space for:
@@ -301,7 +226,6 @@ This repository is a collaborative space for:
 - **Presentations**
 
 ---
-
 ## Policy
 
 - The repository is **public**, following an open-design principle unless otherwise requested by the organization.
