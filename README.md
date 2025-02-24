@@ -64,16 +64,131 @@
 ## Installation
 
 ### General Requirements
-Ensure you have Python installed along with the necessary dependencies. Install them using:
+<p>The project relies on several dependencies for different components, including system execution, data cleaning, and web application hosting. The table below summarizes the required packages and their usage across the different notebooks.</p>
+
+<table>
+  <tr>
+    <th>Dependency</th>
+    <th>Description</th>
+    <th><a href="./notebooks/stable_system.ipynb">stable_system.ipynb</a></th>
+    <th><a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a></th>
+    <th><a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a></th>
+  </tr>
+  <tr>
+    <td>datasets</td>
+    <td>Library for loading and processing datasets</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>sentence_transformers</td>
+    <td>Framework for computing dense vector representations</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>faiss-cpu</td>
+    <td>Library for efficient similarity search</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>faiss-gpu</td>
+    <td>GPU-accelerated version of FAISS</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>scann</td>
+    <td>Scalable nearest neighbor search</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>rapidfuzz</td>
+    <td>Fuzzy string matching library</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>python-Levenshtein</td>
+    <td>Levenshtein distance computation</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>rank-bm25</td>
+    <td>BM25 ranking algorithm for information retrieval</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>spacy</td>
+    <td>NLP processing library</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>en_core_web_sm</td>
+    <td>Pre-trained SpaCy model for English NLP</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>groq</td>
+    <td>API client for Groq models</td>
+    <td>❌</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>fastapi</td>
+    <td>Web framework for building APIs</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>python-multipart</td>
+    <td>Handling multipart form data in FastAPI</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>pyngrok</td>
+    <td>Expose local servers to the internet via Ngrok</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>uvicorn</td>
+    <td>ASGI server for FastAPI applications</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+  </tr>
+</table>
 
 ### Running the System
-To run the full system, follow the steps outlined in [this notebook](./notebooks/stable_system.ipynb).
+<p>To run the core system, follow the steps outlined in <a href="./notebooks/stable_system.ipynb">stable_system.ipynb</a>.</p>
 
 ### Running the Data Cleaner
-To clean and preprocess the datasets, execute the instructions provided in [this notebook](./notebooks/stable_data_cleaning.ipynb).
+<p>To clean and preprocess data, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>.</p>
 
 ### Running the Webserver
-To host the web application, follow the setup described in [this notebook](./notebooks/stable_webapp.ipynb).
+<p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>.</p>
 
 
 
