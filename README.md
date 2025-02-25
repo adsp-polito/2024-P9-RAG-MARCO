@@ -5,20 +5,24 @@
   
   <p>This research explores the world of Retrieval-Augmented Generation (RAG) by studying the interplay between syntactic and semantic search for document retrieval. As depicted in the figure below, a RAG system operates as a powerful pipeline. First, a sophisticated <strong>Retrieval Mechanism</strong> searches through a vast database and pinpoints the most relevant documents related to the input question. These carefully selected documents are then combined with the original question to form an enriched query, which is subsequently fed into a Large Language Model (LLM) for <strong>Response Generation</strong>.</p>
 
-  <p>While RAG is essentially revolutionizing how LLMs generate informed responses, the retrieval mechanism remains the keystone, as the quality of the final answer relies critically on the relevance of the retrieved documents. Garbage in, garbage out, as they say! Therefore, this research revolves around two fundamental questions:</p>
+  <p>While RAG is essentially revolutionizing how LLMs generate informed responses, the retrieval mechanism remains the keystone, as the quality of the final answer relies critically on the relevance of the retrieved documents. Garbage in, garbage out, as they say! Therefore, this research tries to answer two fundamental questions:</p>
 
   <ul>
-    <li><strong>How can we retreive reliably?</strong> We're exploring state-of-the-art techniques to ensure we're not just finding <em>any</em> documents, but the <em>right</em> ones.</li>
-    <li><strong>How can we evaluate that reliability?</strong> We're studying robust metrics to measure the effectiveness of the retrieval methods and ensure they're up to the task.</li>
+    <li><strong>How can we retreive reliably?</strong></li>
+    <li><strong>How can we evaluate that reliability?</strong></li>
   </ul>
 </p>
 
 ![Image](./extras/teaser.svg)
 
 <p align="justify">
-  <p>To address the questions posed earlier, this project explores a range of <strong>baseline retrieval mechanisms</strong>, from traditional syntactic search using textual entities to state-of-the-art semantic search based on powerful embedding models. We then focus particularly on semantic search and introduce a <strong>novel learnable mapping</strong> that optimizes question embeddings. This innovative approach aligns these embeddings with relevant document clusters through <strong>contrastive learning</strong>, enhancing the reliability of information retrieval. This constitutes our approach to the first question. Furthermore, in addition to formally defining the problem and investigating current performance metrics, we introduce a <strong>new metric for evaluating retrieval performance</strong>. This metric provides a more nuanced and comprehensive assessment of retrieval effectiveness, which addresses the second question. Our results demonstrate the significant potential of our proposed method to improve semantic search across multiple metrics, including our novel metric. For a comprehensive understanding of the technical details, we invite you to explore <a href="./presentations/exam.pdf">the exam presentation</a> and the <a href="./report/t3p9_report.pdf">the project report</a>.</p>
+  <p>To address the first question, we explore a range of <strong>baseline retrieval mechanisms</strong>, from traditional syntactic search using textual entities to state-of-the-art semantic search based on powerful embedding models. We then focus particularly on semantic search and introduce a <strong>novel learnable mapping</strong> that optimizes question embedding. This approach aligns these embeddings with relevant document clusters through <strong>contrastive learning</strong>, which, in return, enhances the reliability of information retrieval.</p>
+  
+  <p>Regarding the second question, we formally define the problem of the information retrieval and investigate current performance metrics. In addition, we also introduce a <strong>new metric for evaluating retrieval performance</strong>. This metric provides a more nuanced and comprehensive assessment of the retrieval in comparison to other metrics. All together, we use these metrics to evaluate the reliability if the retrieval machanism.</p>
+  
+  <p>Our results demonstrate the potential of our proposed method to improve semantic search across all the investigated metrics, including our novel metric. For a comprehensive understanding of the technical details, we invite you to explore <a href="./presentations/exam.pdf">the exam presentation</a> and the <a href="./report/t3p9_report.pdf">the project report</a>.</p>
 
-  <p>It is worth noting that we leveraged the capabilities of <a href="https://wandb.ai/">Weights & Biases</a> for Bayesian hyperparameter optimization to fine-tune our proposed method. A summary of our key findings is presented in the figure below, with a complete and interactive visualization available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this interactive report</a>.</p>
+  <p>It is worth noting that we leveraged the capabilities of <a href="https://wandb.ai/">Weights & Biases</a> for Bayesian hyperparameter optimization to fine-tune our proposed method during this project. A summary of our key findings is presented in the figure below, with a complete and interactive visualization available in <a href="https://wandb.ai/adsp-gt3-o1/ms-marco/reports/ADSP-gt3--VmlldzoxMTA3OTExOQ?accessToken=3qt191ygaowfk12zgme3665lczudi0bbim9pxfko5qoz01gaeu4fxvunz9fomiuu">this interactive report</a>.</p>
 
 </p>
 
