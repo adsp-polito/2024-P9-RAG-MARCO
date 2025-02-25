@@ -71,8 +71,24 @@
 <p align="justify">
   
   <p>Since the main environment used for this project is Google Colab, you need to ensure that your Google Drive is set up correctly. For this purpose, create a folder named <code>ADSP Project</code> at the root of your Google Drive. Inside this folder, create another folder named <code>datasets</code>. Then, copy the contents of the <code>datasets</code> folder from the repository into this newly created folder on your Google Drive. The next step is to run the notebooks. We tried to design each one with an explanatory structure to minimize ambiguity.</p>
+  
+</p>
 
-  <p>This project relies on various dependencies for different components, including system execution, data cleaning, and web application hosting. The table below summarizes the required packages and their usage across the different notebooks.</p>
+### Running the System
+<p>To run the core system, follow the steps outlined in <a href="./notebooks/stable_system.ipynb">stable_system.ipynb</a>.</p>
+
+### Running the Data Cleaner
+<p>To clean and preprocess data, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>.</p>
+
+### Running the Webserver
+<p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>.</p>
+
+
+### Summary of the Dependencies
+
+<p align="justify">
+  
+  <p>This project relies on various dependencies for different components, including system execution, data cleaning, and web application hosting. The table below summarizes the required packages and their usage across the notebooks.</p>
 
 </p>
 
@@ -190,15 +206,6 @@
     <td>✅</td>
   </tr>
 </table>
-
-### Running the System
-<p>To run the core system, follow the steps outlined in <a href="./notebooks/stable_system.ipynb">stable_system.ipynb</a>.</p>
-
-### Running the Data Cleaner
-<p>To clean and preprocess data, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>.</p>
-
-### Running the Webserver
-<p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>.</p>
 
 ---
 ## Workflow
