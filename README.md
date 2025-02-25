@@ -83,10 +83,10 @@
 </p>
 
 ### Running the Data Cleaner
-<p>To clean and preprocess the required dataset for this project, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>. All the datasets stored in this repository are created by this notebook. If you do not intend to modify the current datasets or create new ones, do not run this notebook. It is worth noting that at the `Notebook Initialization` section, you need to set your own API key received from <a href="https://groq.com/">Groq</a>.</p>
+<p>To clean and preprocess the required dataset for this project, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>. All the datasets stored in this repository are created by this notebook. If you do not intend to modify the current datasets or create new ones, do not run this notebook. It is worth noting that at the `Notebook Initialization` section, you need to set your own API key received from <a href="https://groq.com/">groq</a>.</p>
 
 ### Running the Webserver
-<p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>.</p>
+<p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>. For this purpose, you need to upload all the contents of the <code>demo</code> folder from the repository to the root folder of your notebook. Also, remeber to set your own API keys received from <a href="https://groq.com/">groq</a> and <a href="https://ngrok.com/">ngrok</a> at the `Notebook Initialization` section.</p>
 
 
 ### Summary of the Dependencies
