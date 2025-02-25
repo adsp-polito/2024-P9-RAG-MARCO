@@ -75,10 +75,15 @@
 </p>
 
 ### Running the System
-<p>To run the core system, follow the steps outlined in <a href="./notebooks/stable_system.ipynb">stable_system.ipynb</a>.</p>
+
+<p align="justify">
+  
+  <p>To run the core system, follow the steps outlined in <a href="./notebooks/stable_system.ipynb">stable_system.ipynb</a>. For this notebook, you will need to download all the datasets provided by the repository through the method explained in the previous section.</p>
+
+</p>
 
 ### Running the Data Cleaner
-<p>To clean and preprocess data, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>.</p>
+<p>To clean and preprocess the required dataset for this project, execute the steps detailed in <a href="./notebooks/stable_data_cleaning.ipynb">stable_data_cleaning.ipynb</a>. All the datasets stored in this repository are created by this notebook. If you do not intend to modify the current datasets or create new ones, do not run this notebook. It is worth noting that at the `Notebook Initialization` section, you need to set your own API key received from <a href="https://groq.com/">Groq</a>.</p>
 
 ### Running the Webserver
 <p>To launch the web server, follow the setup guide in <a href="./notebooks/stable_webapp.ipynb">stable_webapp.ipynb</a>.</p>
