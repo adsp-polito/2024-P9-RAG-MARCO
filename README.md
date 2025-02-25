@@ -28,7 +28,19 @@
 
 ![Image](./extras/wandb_filtered.jpg)
 
-### Project Structure
+### Project Stakeholder
+<p align="justify">
+
+  <p>The primary stakeholder of this project is <a href="https://linksfoundation.com/en/">LINKS Foundation</a> that operates in the field of digital transformation with applied research, innovation, and technology transfer activities. This work was conducted at <a href="https://www.polito.it/en">Politecnico di Torino</a> for the course <strong>Applied Data Science Project</strong> under the supervision of <a href="https://www.polito.it/personale?p=015390">Professor Giuseppe Rizzo</a>, with light mentoring provided by <a href="https://it.linkedin.com/in/lorenzo-bongiovanni-32b3b7112">Dr. Lorenzo Bongiovanni</a>.</p>
+
+  <p>Moreover, this project was developed by <a href="https://github.com/homayoun-afshari">Homayoun Afshari</a>, <a href="https://github.com/HOSSENkhodadadi">Hossein Khodadadi</a>, and <a href="https://github.com/ArashDaneshvar">Arash Daneshvar</a>.</p>
+
+</p>
+
+---
+## Installation
+
+### Repository Structure
 ```bash
 2024-P9-RAG-MARCO/
 ├── datasets/                             # Directory of the cleaned datasets
@@ -54,18 +66,6 @@
 └─── report/                              # Directory of the report
     └── t3p9_report.pdf                   # The report
 ```
-
-### Project Stakeholder
-<p align="justify">
-
-  <p>The primary stakeholder of this project is <a href="https://linksfoundation.com/en/">LINKS Foundation</a> that operates in the field of digital transformation with applied research, innovation, and technology transfer activities. This work was conducted at <a href="https://www.polito.it/en">Politecnico di Torino</a> for the course <strong>Applied Data Science Project</strong> under the supervision of <a href="https://www.polito.it/personale?p=015390">Professor Giuseppe Rizzo</a>, with light mentoring provided by <a href="https://it.linkedin.com/in/lorenzo-bongiovanni-32b3b7112">Dr. Lorenzo Bongiovanni</a>.</p>
-
-  <p>The project was developed by <a href="https://github.com/homayoun-afshari">Homayoun Afshari</a>, <a href="https://github.com/HOSSENkhodadadi">Hossein Khodadadi</a>, and <a href="https://github.com/ArashDaneshvar">Arash Daneshvar</a>.</p>
-
-</p>
-
----
-## Installation
 
 ### General Requirements
 <p align="justify">
